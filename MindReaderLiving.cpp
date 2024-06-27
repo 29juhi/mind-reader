@@ -387,7 +387,7 @@ bool fins()
 }
 bool largest()
 {
-    cout << "is it large in size?";
+    cout << "is it largest in size?";
     bool x;
     cin >> x;
     return x;
@@ -612,6 +612,9 @@ int isliving(){
             {
                 cout << "bat";
             }
+            else if (largest()){
+                cout<<"ostrich";
+            }
             else if (water())
             {
                 if (swan())
@@ -835,6 +838,9 @@ int isliving(){
             else if (fat()){
                 cout<<"hippopotamus";
             }
+            else if (claws()){
+                cout<<"crab";
+            }
             else{
                 cout<<"frog";
             }
@@ -873,14 +879,7 @@ int isliving(){
                 }
                 else if (claws())
                 {
-                    if (sand())
-                    {
-                        cout << "crab";
-                    }
-                    else
-                    {
-                        cout << "lobster";
-                    }
+                    cout<<"lobster";
                 }
                 else if (star())
                 {
