@@ -188,7 +188,7 @@ bool bigsize()
 }
 bool swan()
 {
-    cout << "is it very pretty and all white always with black beak?";
+    cout << "is it very pretty and all white always with black orange beak?";
     bool x;
     cin >> x;
     return x;
