@@ -777,6 +777,9 @@ int isliving(){
                         {
                             cout << "horse";
                         }
+                        else if (stripes()){
+                            cout<<"squirrel";
+                        }
                         else if (dairy())
                         {
                             cout << "cow";
