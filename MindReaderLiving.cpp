@@ -881,6 +881,9 @@ int isliving(){
             }
         }
     }
+    else{
+        cout<<"sorry I don't know that.";
+    }
     return 0;
 }
 
