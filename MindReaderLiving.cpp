@@ -889,7 +889,7 @@ int isliving(){
 
 int main()
 {
-    cout << "Think of any animal, bird or insect but try to keep it simple. by asking a few question i will read your mind!"<<endl<<"enter 0 if true and 1 if false"<<endl;
+    cout << "Think of any animal, bird or insect but try to keep it simple. by asking a few question i will read your mind!"<<endl<<"enter 1 if true and 0 if false"<<endl;
     isliving();
     return 0;
 }
