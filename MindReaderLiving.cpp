@@ -481,6 +481,12 @@ bool horns(){
     cin>>x;
     return x;
 }
+bool feathers(){
+    cout<<"is it blue in color and known for its feathers?";
+    bool x;
+    cin>>x;
+    return x;
+}
 
 
 int isliving(){
@@ -630,6 +636,9 @@ int isliving(){
                 if (blue())
                 {
                     cout << "pegion";
+                }
+                else if (feathers()){
+                    cout<<"peacock";
                 }
                 else if (scavenger())
                 {
